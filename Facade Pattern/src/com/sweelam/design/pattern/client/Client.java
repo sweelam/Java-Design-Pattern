@@ -1,6 +1,6 @@
-package com.design.pattern.client;
+package com.sweelam.design.pattern.client;
 
-import com.design.pattern.facade.PayFacade;
+import com.sweelam.design.pattern.facade.PayFacade;
 
 /**
  * 

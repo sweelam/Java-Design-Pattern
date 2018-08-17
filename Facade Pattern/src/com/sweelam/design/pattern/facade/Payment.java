@@ -1,4 +1,4 @@
-package com.design.pattern.facade;
+package com.sweelam.design.pattern.facade;
 
 /**
  * Payment abstract class is the class which will have the common function exists in the subsystem.

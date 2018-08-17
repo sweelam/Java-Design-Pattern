@@ -1,4 +1,4 @@
-package com.design.pattern.facade;
+package com.sweelam.design.pattern.facade;
 
 public class CashPayment extends Payment {
 
