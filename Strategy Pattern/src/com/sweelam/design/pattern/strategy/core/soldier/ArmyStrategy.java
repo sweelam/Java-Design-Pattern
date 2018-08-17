@@ -1,4 +1,4 @@
-package com.sweelam.design.pattern.strategy.soldier;
+package src.com.sweelam.design.pattern.strategy.core.soldier;
 
 /**
  * 
