@@ -12,6 +12,9 @@ public class ForcastingDevice implements Observer {
 	
 	private String content;
 	
+	/**
+	 * The actual business for notification update
+	 */
 	@Override
 	public void update(SubscriptionInfo subscriptionInfo) {
 		this.content = subscriptionInfo.getContent();

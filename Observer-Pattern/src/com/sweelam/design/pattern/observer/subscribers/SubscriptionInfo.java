@@ -1,7 +1,11 @@
 package com.sweelam.design.pattern.observer.subscribers;
 
+/**
+ * Normal domain class 
+ * @author sweelam
+ *
+ */
 public class SubscriptionInfo {
-	// Domain structure
 	private String articleName;
 	private String autherName;
 	private int validFor;

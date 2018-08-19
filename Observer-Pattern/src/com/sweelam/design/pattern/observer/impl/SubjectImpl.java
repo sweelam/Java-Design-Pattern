@@ -6,6 +6,11 @@ import com.sweelam.design.pattern.observer.core.Observer;
 import com.sweelam.design.pattern.observer.core.Subject;
 import com.sweelam.design.pattern.observer.subscribers.SubscriptionInfo;
 
+/**
+ * The actual mechanism for observing .
+ * @author sweelam
+ *
+ */
 public class SubjectImpl implements Subject {
 	private ArrayList<Observer> observers;
 	
