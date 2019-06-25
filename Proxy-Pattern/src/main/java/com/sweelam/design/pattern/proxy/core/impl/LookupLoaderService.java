@@ -1,4 +1,4 @@
-package com.sweelam.design.pattern.proxy.core;
+package com.sweelam.design.pattern.proxy.core.impl;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package com.sweelam.design.pattern.proxy.core;
+package com.sweelam.design.pattern.proxy.core.impl;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,6 +8,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.sweelam.design.pattern.proxy.core.LookupLib;
 
 /**
  * 
@@ -37,6 +38,11 @@ public class LookupProxy implements LookupLib {
 		return lookups.toString();
 	}
 
+	/**
+	 * Cach Lookup IDs
+	 * @param lookupId
+	 * @return
+	 */
 	public String loadLookupById(long lookupId) {
 		if (null == lookups)
 			loadLookups();
@@ -58,6 +64,11 @@ public class LookupProxy implements LookupLib {
 		return new String();
 	}
 
+	/**
+	 * Cach Lookup Names
+	 * @param lookupName
+	 * @return
+	 */
 	public String loadLookupByName(String lookupName) {
 		if (null == lookups)
 			loadLookups();
