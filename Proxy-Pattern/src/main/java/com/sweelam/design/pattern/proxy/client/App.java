@@ -1,6 +1,6 @@
 package com.sweelam.design.pattern.proxy.client;
 
-import com.sweelam.design.pattern.proxy.core.LookupProxy;
+import com.sweelam.design.pattern.proxy.core.impl.LookupProxy;
 
 public class App {
 	public static void main(String[] args) {
